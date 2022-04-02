@@ -1,9 +1,10 @@
 package com.company;
-import java.util.LinkedList;
+import java.util.*;
+
 
 public class arrayN1 {
-    public static void main (String[] args)
-    {
+    public static int[] test(int x){
+
         // declares an Array of integers.
         int[] arr;
 
@@ -25,5 +26,20 @@ public class arrayN1 {
         for (int i = 0; i < arr.length; i++)
             System.out.println("Element at index " + i +
                     " : "+ arr[i]);
+
+        return arr;
     }
+
+
+
+        public static void main(String[] args){
+        int x = 1;
+        int[] arr = test(x);
+        //for loop print out arr result
+        for (int i = 0; i < arr.length; i++){
+            System.out.println(arr[i]);
+        }
+        // print array element by using get
+        System.out.println(Arrays.toString(arr));
+        }
 }
