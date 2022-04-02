@@ -1,14 +1,12 @@
 # algo_2022
 data structure and algo playground
+implementing data structures and algo in java
 
-## some fun stuffs about implementing data structures and algo in java
 
-
-# permenantly authenticate with git repo
+--
+permenantly authenticate with git repo
 git config --global credential.helper store
 git push https://github.com/<your_username>/<your_repo>.git
-
-
 --
 PS>ssh-keygen -t rsa -b 4096 -C "my@emailaddress.com"
 Generating public/private rsa key pair.
