@@ -2,7 +2,7 @@
 
 ### implementing data structures and algo in java 
 
-### learn build earn and give 
+### Never sto learning, practicing and building. Engineering is fun! 
 
 --
 perrmenantly authenticate with git repo
