@@ -2,12 +2,9 @@
 
 ### implementing data structures and algo in java 
 
-### Never sto learning, practicing and building. Engineering is fun! 
+### Keep learning, practicing and building. Engineering is fun! 
 
---
-perrmenantly authenticate with git repo
-git config --global credential.helper store
-git push https://github.com/<your_username>/<your_repo>.git
+
 --
 PS>ssh-keygen -t rsa -b 4096 -C "my@emailaddress.com"
 Generating public/private rsa key pair.
