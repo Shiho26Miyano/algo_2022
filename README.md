@@ -1,7 +1,8 @@
-## algo_2022
-data structure and algo playground 
-implementing data structures and algo in java 
-learn build earn and give 
+# data structure and algo playground 
+
+### implementing data structures and algo in java 
+
+### learn build earn and give 
 
 --
 perrmenantly authenticate with git repo
