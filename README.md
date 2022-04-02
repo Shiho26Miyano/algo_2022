@@ -19,3 +19,9 @@ Identity added: /home/user/.ssh/id_rsa
 start ssh-agent
 eval `ssh-agent -s`
 ssh-add
+
+--
+
+perrmenantly authenticate with git repo
+git config --global credential.helper store
+git push https://github.com/<your_username>/<your_repo>.git
