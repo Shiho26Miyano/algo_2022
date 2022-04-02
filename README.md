@@ -2,11 +2,10 @@
 data structure and algo playground
 implementing data structures and algo in java
 
-testtesttest
+learn build earn and give
 
 
---
-permenantly authenticate with git repo
+perrmenantly authenticate with git repo
 git config --global credential.helper store
 git push https://github.com/<your_username>/<your_repo>.git
 --
