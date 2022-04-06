@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;  // Import the Collections class
 
 public class arraylistN1 {
+
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
