@@ -27,3 +27,4 @@ public class PriorityQueueDemo {
         System.out.println("Priority queue after Insertion: " + queue);
     }
 }
+
