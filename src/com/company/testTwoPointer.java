@@ -1,31 +1,42 @@
 package com.company;
+import java.util.*;
 
 public class testTwoPointer{
     public static void main(String args[])
     {
-        int[] nums = {10, 20, 35, 50, 75, 80};
-        int target = 110;
+        int[] nums = {3,1,2,4,6};
+        int target = 6;
 
+
+
+        int[] nums2 = nums;
+        Arrays.sort(nums2);
         int l = 0;
-        int r = nums.length - 1;
+        int r = nums2.length - 1;
 
 
-        while (l < r) {
-            int sum = nums[l] + nums[r];
-            if (sum == target) {
-                System.out.println(l);
-                System.out.println(r);
+        while (l < r){
+            int sum = nums2[l] + nums2[r];
+            if (sum == target){
                 break;
-
-            }
-            else if (sum > target) {
+            }else if(sum > target){
                 r--;
-
-            } else {
+            }else{
                 l++;
             }
         }
 
+        int nl = 0;
+        int nr = 0;
+        for (int i = 0; i < nums.length; i++){
+            if (nums[i] == nums2[l]) nl = i;
+            if (nums[i] == nums2[r]) nr = i;
+        }
+
+
+
+        System.out.println(nl);
+        System.out.println(nr);
 
 
     }
