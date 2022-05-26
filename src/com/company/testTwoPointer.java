@@ -15,9 +15,10 @@ public class testTwoPointer{
             if (sum == target) {
                 System.out.println(l);
                 System.out.println(r);
+                break;
 
             }
-            if (sum > target) {
+            else if (sum > target) {
                 r--;
 
             } else {

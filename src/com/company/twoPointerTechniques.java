@@ -17,6 +17,7 @@ public class twoPointerTechniques{
                 if (sum == target) {
                     System.out.println(l);
                     System.out.println(r);
+                    break;
 
                 }
                 if (sum > target) {
