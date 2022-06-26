@@ -25,6 +25,30 @@ public class PriorityQueueDemo {
 
         // Displaying th final Queue
         System.out.println("Priority queue after Insertion: " + queue);
+
+        /// example 2
+
+        // Creating empty priority queue
+        PriorityQueue<Integer> pQueue
+                = new PriorityQueue<Integer>((a, b) -> b - a);
+
+        // Adding items to the pQueue using add()
+        pQueue.add(10);
+        pQueue.add(20);
+        pQueue.add(15);
+        pQueue.add(5);
+
+        // Printing the top element of PriorityQueue
+        //System.out.println(pQueue.peek());
+
+        // Printing the top element and removing it
+        // from the PriorityQueue container
+        //System.out.println(pQueue.poll());
+
+        // Printing the top element again
+        //System.out.println(pQueue.peek());
+        System.out.println(pQueue);
+
     }
 }
 
